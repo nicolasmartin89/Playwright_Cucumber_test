@@ -5,8 +5,8 @@ Feature: User Authentication tests
     And User click on the login link
 
   Scenario: Login should be success
-    And User enter the username as "username_valid"
-    And User enter the password as "password_valid"
+    And User enter the username as "admin"
+    And User enter the password as "admin"
     When User click on the login button
     Then Login should be success
 
